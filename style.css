@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 1640px;
+    margin: 0 auto;
+    background: #444444;
+}
+.header_movies{
+    width: 1440px;
+    background: #2A2A2A;
+    margin: 0 100px;
+}
+.header_movies h1{
+    font-family: Arial;
+    font-size: 267px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 307.02px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;    
+}
+.option{
+    margin: 0 432px;
+    gap: 24px;
+}
+#input{
+    width: 200px;
+    height: 39px;
+    border-radius: 5px;
+}
+::placeholder{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #757575;
+    border: none;
+    padding: 0 10px;
+}
+#optionall{
+    width: 100px;
+    height: 39px;
+    border-radius: 5px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none; 
+    color: #000000;
+    padding: 0 14px; 
+}
+#optionsort{
+    width: 100px;
+    height: 39px;
+    border-radius: 5px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none; 
+    color: #000000;
+    padding: 0 14px; 
+}
+#btn{
+    width: 70.7px;
+    height: 39px;
+    border-radius: 5px;
+    background: #D9534F;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF; 
+    border: none;   
+}
+#moviescontainer{
+    width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+    background: #2A2A2A;
+}
+.card {
+    background-color: #222;
+    color: #fff;
+    width: 320px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 10px
+}
+.card img{
+    position: relative;
+    top: 10px;
+    width: 300px;
+}
+      
+              .card-content {
+                  padding: 20px;
+              }
+      
+              .card-title {
+                  font-size: 1.2rem;
+                  font-weight: bold;
+                  margin: 10px 0;
+              }
+      
+              .card-details {
+                  font-size: 0.9rem;
+                  margin: 10px 0;
+              }
+      
+              .card-details span {
+                  display: block;
+                  margin: 5px 0;
+              }
+      
+              .card-category {
+                  font-style: italic;
+                  color: #bbb;
+              }
+      
+              .card button {
+                  margin-top: 15px;
+                  padding: 10px 20px;
+                  border: none;
+                  border-radius: 5px;
+                  background-color: #28a745;
+                  color: #fff;
+                  font-size: 1rem;
+                  cursor: pointer;
+                  transition: background-color 0.3s ease;
+              }
+      
+              .card button:hover {
+                  background-color: #218838;
+              }
+/* .card{
+    width: 244px;
+    height: 368px;
+    border-radius: 10px;  
+    background: #333333;
+    box-shadow: 0px 0px 15px 0px #00000080;  
+}
+.card h2{
+    font-family: Arial;
+    font-size: 18.7px;
+    font-weight: 700;
+    line-height: 21.5px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;    
+}
+.card p{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;    
+}
+.card h3{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;    
+}
+.card button{
+    width: 75.56px;
+    height: 35px;
+    background: #5CB85C;
+    font-family: Arial;
+    font-size: 13.3px;
+    font-weight: 400;
+    line-height: 15.29px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF; 
+    border: none;   
+} */
